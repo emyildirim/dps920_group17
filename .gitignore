@@ -148,6 +148,9 @@ activemq-data/
 *.sage.py
 
 # Environments
+IMG/
+driving_log.csv
+dataset.zip
 .env
 .envrc
 .venv
