@@ -151,6 +151,8 @@ activemq-data/
 IMG/
 driving_log.csv
 dataset.zip
+dataset/**
+!dataset/README.md
 .env
 .envrc
 .venv

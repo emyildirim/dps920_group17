@@ -1,0 +1,22 @@
+DPS920 Group 17 - Offline Model Evaluation
+===============================================
+Evaluation split: validation
+Evaluated samples: 1609
+Missing image rows skipped: 0
+Exact-zero rows removed: 4321
+
+Model MAE:  0.047490
+Model MSE:  0.005474
+Model RMSE: 0.073987
+Model R2:   0.641732
+
+Zero baseline MAE:  0.084561
+Zero baseline MSE:  0.015295
+Zero baseline RMSE: 0.123674
+RMSE improvement over zero baseline: 40.18%
+
+Error by steering range:
+- Near straight: n=708, MAE=0.030435, RMSE=0.047834
+- Small turn: n=751, MAE=0.045258, RMSE=0.057445
+- Medium turn: n=127, MAE=0.109254, RMSE=0.131575
+- Sharp turn: n=23, MAE=0.304315, RMSE=0.330413

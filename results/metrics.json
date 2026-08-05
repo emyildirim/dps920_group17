@@ -1,0 +1,48 @@
+{
+  "data": {
+    "csv": "driving_log.csv",
+    "image_root": ".",
+    "split": "validation",
+    "source_rows": 12365,
+    "zero_rows_removed": 4321,
+    "missing_images": 0,
+    "evaluated_samples": 1609,
+    "seed": 42,
+    "validation_size": 0.2
+  },
+  "model": {
+    "mae": 0.04748972526476927,
+    "mse": 0.005474101521308151,
+    "rmse": 0.07398717132927944,
+    "r2": 0.641731764844492
+  },
+  "zero_steering_baseline": {
+    "mae": 0.08456079792075824,
+    "mse": 0.015295327245584045,
+    "rmse": 0.12367427883591658,
+    "r2": -0.0010464506496463688
+  },
+  "rmse_improvement_percent": 40.175781071308236,
+  "by_turn_range": {
+    "Near straight": {
+      "count": 708,
+      "mae": 0.03043475074677182,
+      "rmse": 0.04783398750834619
+    },
+    "Small turn": {
+      "count": 751,
+      "mae": 0.04525781679940931,
+      "rmse": 0.057445130386025944
+    },
+    "Medium turn": {
+      "count": 127,
+      "mae": 0.10925438052504054,
+      "rmse": 0.13157512959373344
+    },
+    "Sharp turn": {
+      "count": 23,
+      "mae": 0.3043146817070772,
+      "rmse": 0.3304133317279054
+    }
+  }
+}
