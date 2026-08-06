@@ -52,3 +52,7 @@ Setting Up ...
 
 3. Open the simulator → **Autonomous Mode** (connects to `localhost:4567` on its own)
 4. Terminal prints `Connected`, then `throttle, steering, speed` — car drives from the model
+
+## Notes
+
+The autonomous run isn’t perfect. The dataset is still skewed toward going straight, so the car often keeps going straight into a steep curve when it should turn. We think trimming/balancing the data more would make it sharper and more accurate.
