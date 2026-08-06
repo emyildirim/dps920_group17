@@ -15,7 +15,7 @@ Too big for GitHub. Download:
 
 https://drive.google.com/file/d/18eGWZ25Gu00CrdBEzYPy1bDvhWF2gn0L/view?usp=share_link
 
-Extract so you have `dataset/driving_log.csv` and `dataset/IMG/`. See `dataset/README.md`.
+Extract so you have `dataset/driving_log.csv` and `dataset/IMG/`.
 
 ## Setup
 
