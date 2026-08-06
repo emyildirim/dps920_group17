@@ -63,6 +63,3 @@ The autonomous run isn’t perfect. The dataset is still skewed toward going str
 So one issue we had was figuring out how to actually implement the model based off the diagram given in Figure 7 of the Final_Project.pdf. To further our understanding we found the paper that we believe the Figure 7 stemmed from: End to End Learning for Self-Driving Cars (https://arxiv.org/pdf/1604.07316) 
 
 By reading this paper I was able to figure out that the first 3 convultional layers would utilise 2x2 stride with a 5x5 kernel. and the last 3 layers would use a 3x3 kernel. And the paper helped me make sense of the other aspects of the diagram. In hindsight I can now see how to read the diagram properly. 
-
-### AI citation
-AI tools were used to help with documentation and with some valuation/testing scripts.  Model training and core project code were done by the team.
